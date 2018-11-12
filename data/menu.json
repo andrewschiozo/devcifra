@@ -1,1 +1,12 @@
-[{"name":"Cifras","file":"cifra/view/_cifras.htm","icon":"fas fa-list"},{"name":"Repert\u00f3rios","file":"cifra/view/_repertorios.htm","icon":"fas fa-file-alt"}]
+[
+  {
+    "name":"Cifras",
+    "file":"view/_cifras.htm",
+    "icon":"fas fa-list"
+  },
+  {
+    "name":"Repert\u00f3rios",
+    "file":"view/_repertorios.htm",
+    "icon":"fas fa-file-alt"
+  }
+]
