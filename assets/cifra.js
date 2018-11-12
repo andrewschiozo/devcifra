@@ -28,7 +28,7 @@ function loadView(viewName, target)
 
 function loadMenu()
 {
-	$.get('cifra/data/menu.json', function(response){
+	$.get('data/menu.json', function(response){
 		$.each(response, function(index, value){
 			var link = $('<a></a>');
 			link.addClass('nav-link');
@@ -47,7 +47,7 @@ function loadMenu()
 
 function loadCifras()
 {
-	$.get('cifra/data/cifra.json', function(response){
+	$.get('data/cifra.json', function(response){
 	    $.each(response, function(index, value){
 	    	var item = $('<li></li>');
 	    	item.addClass('list-group-item');
@@ -61,7 +61,7 @@ function loadCifras()
 
 function loadRepertorios()
 {	
-	$.get('cifra/data/repertorio.json', function(response){
+	$.get('data/repertorio.json', function(response){
 	    $.each(response, function(index, value){
 	    	var item = $('<li></li>');
 	    	item.addClass('list-group-item');
