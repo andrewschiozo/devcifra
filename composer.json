@@ -1,0 +1,8 @@
+{
+  "name": "Dev Cifras",
+      "config": {
+          "platform": {
+              "php": "5.6.1"
+          }
+      }
+}
