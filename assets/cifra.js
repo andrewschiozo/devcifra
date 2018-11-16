@@ -1,4 +1,20 @@
 $(function(){
+	
+	/** 
+	 *  Na página da cifra, executar o script abaixo para obter o id da cifra
+	 *  $("a:contains(corrigir)").attr('href')
+				     .substr(27, $("a:contains(corrigir)").attr('href').length)
+				     .substr(0, $("a:contains(corrigir)").attr('href')
+							 		 .substr(27, $("a:contains(corrigir)").attr('href').length)
+							 		 .indexOf('&'));
+	 
+	 *
+	 * get cifra by id
+	 * id = 445803
+	 * https://api.cifraclub.com.br/v3/cifra/445803/1
+	 * IMPLEMENTAR .. algum dia ..
+	 */
+	
 	loadMenu();
 
 	 //Search
